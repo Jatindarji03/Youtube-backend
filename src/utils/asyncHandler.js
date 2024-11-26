@@ -7,7 +7,6 @@ const asyncHandler=(fun)=>async (req,res,next)=>{
             message:error.message
         })
     }
-
 }
 
 export{asyncHandler}
